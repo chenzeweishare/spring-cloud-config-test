@@ -1,4 +1,4 @@
 spring:
   datasource:
     username: dbuser
-    password: '{cipher}c83635cc279b57548e4163d384cba2c91cfdccc1b618f0052c8a24dc8cc7363f'
+    password: '{cipher}c83635cc279b57548e4163d384cba2c91cfdccc1b618f0052c8a24dc8cc7363f'  #加密的密钥(注意,原始密钥前面需要加{cipher},这是加密的标注,yml的配置文件还需要加单引号)
